@@ -45,13 +45,39 @@ Canteen Connect is a **mobile application** designed to streamline the food orde
 
 ## 🔗 ServiceNow Integration  
 
-The app uses **ServiceNow as the backend system** to manage canteen operations:  
+Canteen Connect leverages **ServiceNow** as the backend for data, workflows, and automation.  
 
+### 🔹 Tables  
 - **Canteen List (`canteen_list`)** – Stores canteen details like name, image, timings, and ratings.  
 - **Menu Items (`u_canteen_menu`)** – Stores food items with fields such as item name, price, availability, and type.  
 - **Orders (`u_order_details`)** – Captures order details including user, items, price, and order status.  
 - **User Profiles (`u_canteen_user`)** – Stores user details like email, username, and photo URL.  
-- **Issues (`u_issues`)** – Allows students to raise issues (service-related, billing, delays), integrated with ServiceNow workflows.  
+- **Issues (`u_issues`)** – Allows students to raise issues (service-related, billing, delays).  
+
+### 🔹 Flow Designer  
+- Automated workflows for order confirmation, order completion, and issue resolution.  
+- Example: When an order is placed → Create order record → Trigger notification to canteen staff → Update user on order status.  
+
+### 🔹 Notifications  
+- Email/SMS/Push notifications for order status (Placed, Ready, Completed).  
+- Alerts to canteen staff when a new order is raised.  
+- Escalation notifications for unresolved issues.  
+
+### 🔹 Reports & Dashboards  
+- Daily/Weekly reports on total orders, revenue, and top-selling items.  
+- Dashboard for admins to monitor order volume and customer feedback.  
+- Issue analytics for tracking delays or complaints.  
+
+### 🔹 Roles & Groups  
+- **Student/User Role** – Can browse menus, place orders, post reviews, and raise issues.  
+- **Canteen Staff Role** – Can view orders assigned to their canteen, update order status.  
+- **Admin Role** – Can manage menu items, view all orders, resolve issues, and generate reports.  
+- **Groups** – Staff grouped by canteen (e.g., Canteen A Staff, Canteen B Staff).  
+
+### 🔹 ACLs (Access Control Rules)  
+- Restrict order details so that students only see their own orders.  
+- Ensure canteen staff can only view and manage orders from their assigned canteen.  
+- Admin has full access to all tables and records.  
 
 ---
 
