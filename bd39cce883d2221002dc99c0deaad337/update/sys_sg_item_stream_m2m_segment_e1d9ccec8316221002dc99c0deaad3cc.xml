@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
+    <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
+        <item_stream display_value="Canteen_User Item Stream">a9d9ccec8316221002dc99c0deaad3cb</item_stream>
+        <segment display_value="Canteen_User Item Stream Segment">add9ccec8316221002dc99c0deaad3ca</segment>
+        <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-19 07:11:12</sys_created_on>
+        <sys_id>e1d9ccec8316221002dc99c0deaad3cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Canteen Connect" source="bd39cce883d2221002dc99c0deaad337">bd39cce883d2221002dc99c0deaad337</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Canteen Connect">bd39cce883d2221002dc99c0deaad337</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_segment_e1d9ccec8316221002dc99c0deaad3cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-19 07:11:12</sys_updated_on>
+    </sys_sg_item_stream_m2m_segment>
+</record_update>

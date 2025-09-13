@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="539948ec8316221002dc99c0deaad3c5" label="Canteen_User" max_length="40" name="u_canteen_user" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="UserName" mandatory="true" max_length="40" name="u_username" type="string"/>
+    </element>
+</database>
