@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="d7ca673383b7221002dc99c0deaad3d3" sys_domain="global" table="u_canteen_reviews" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-12 15:32:05</sys_created_on>
+            <sys_id>139b23b383b7221002dc99c0deaad31c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_canteen_reviews" sys_domain="global" view="Default view">d7ca673383b7221002dc99c0deaad3d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-12 15:32:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_username</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-12 15:32:05</sys_created_on>
+            <sys_id>979b23b383b7221002dc99c0deaad31c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_canteen_reviews" sys_domain="global" view="Default view">d7ca673383b7221002dc99c0deaad3d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-12 15:32:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_user_email</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-12 15:32:05</sys_created_on>
+            <sys_id>1f9b23b383b7221002dc99c0deaad31c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_canteen_reviews" sys_domain="global" view="Default view">d7ca673383b7221002dc99c0deaad3d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-12 15:32:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_canteen_name</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-12 15:32:05</sys_created_on>
+            <sys_id>939b23b383b7221002dc99c0deaad31d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_canteen_reviews" sys_domain="global" view="Default view">d7ca673383b7221002dc99c0deaad3d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-12 15:32:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-12 15:32:05</sys_created_on>
+            <sys_id>1b9b23b383b7221002dc99c0deaad31d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_canteen_reviews" sys_domain="global" view="Default view">d7ca673383b7221002dc99c0deaad3d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-12 15:32:05</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_item_name</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-12 15:32:05</sys_created_on>
+            <sys_id>9f9b23b383b7221002dc99c0deaad31d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_canteen_reviews" sys_domain="global" view="Default view">d7ca673383b7221002dc99c0deaad3d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-12 15:32:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_item_image</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-12 15:32:05</sys_created_on>
+            <sys_id>179b23b383b7221002dc99c0deaad31e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_canteen_reviews" sys_domain="global" view="Default view">d7ca673383b7221002dc99c0deaad3d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-12 15:32:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_rating</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-12 15:32:05</sys_created_on>
+            <sys_id>9b9b23b383b7221002dc99c0deaad31e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_canteen_reviews" sys_domain="global" view="Default view">d7ca673383b7221002dc99c0deaad3d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-12 15:32:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_review_date</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-12 15:32:05</sys_created_on>
+            <sys_id>139b23b383b7221002dc99c0deaad31f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_canteen_reviews" sys_domain="global" view="Default view">d7ca673383b7221002dc99c0deaad3d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-12 15:32:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-12 15:32:05</sys_created_on>
+            <sys_id>979b23b383b7221002dc99c0deaad31f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_canteen_reviews" sys_domain="global" view="Default view">d7ca673383b7221002dc99c0deaad3d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-12 15:32:05</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_review_comment</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-12 15:32:05</sys_created_on>
+            <sys_id>1f9b23b383b7221002dc99c0deaad31f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_canteen_reviews" sys_domain="global" view="Default view">d7ca673383b7221002dc99c0deaad3d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-12 15:32:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>u_canteen_reviews</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-12 15:28:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7ca673383b7221002dc99c0deaad3d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_canteen_reviews</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Canteen Connect" source="bd39cce883d2221002dc99c0deaad337">bd39cce883d2221002dc99c0deaad337</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Canteen Connect">bd39cce883d2221002dc99c0deaad337</sys_scope>
+            <sys_update_name>sys_ui_section_d7ca673383b7221002dc99c0deaad3d3</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-12 15:28:31</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

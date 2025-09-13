@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 15:14:33</sys_created_on>
+        <sys_id>ba976b3f8377221002dc99c0deaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_canteen_reviews.u_canteen_reviews_user</sys_name>
+        <sys_package display_value="Canteen Connect" source="bd39cce883d2221002dc99c0deaad337">bd39cce883d2221002dc99c0deaad337</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Canteen Connect">bd39cce883d2221002dc99c0deaad337</sys_scope>
+        <sys_security_acl display_value="u_canteen_reviews">a6976b3f8377221002dc99c0deaad3b8</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ba976b3f8377221002dc99c0deaad3bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 15:14:33</sys_updated_on>
+        <sys_user_role display_value="u_canteen_reviews_user" name="u_canteen_reviews_user">1e97afbb8377221002dc99c0deaad3e0</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="DELETE">
+        <before>false</before>
+        <description/>
+        <name>Test_Script</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[// var gr=new GlideRecord('incident');
+// gr.addQuery('state',7);
+// gr.query();
+// var x=0;
+// while(gr.next()){
+// 	gs.print(gr.state);
+// 	x++;
+// }
+// gs.print("Total no of records:"+x);
+
+// var gr=new GlideRecord('incident');
+// gr.addQuery('state',7);
+// gr.addQuery('category','software');
+// gr.addQuery('priority',1);
+// gr.query();
+// while(gr.next()){
+// 	gr.short_description="Incident is closed, please revisit servicenow portal to raise an issue";
+// 	gr.update();
+// }
+
+var gr = new GlideRecord('incident');
+gr.addQuery('category', 'inquiry');
+gr.addQuery('priority', 1);
+gr.addQuery('state', 3);
+gr.query();
+gs.info("Records found: " + gr.getRowCount());
+while (gr.next()) {
+	var num=gr.getValue('number');
+	var name=gr.caller_id.getDisplayValue();
+    gr.description = num+" "+name;
+    gr.update();
+}
+gs.info("Records found: " + gr.getRowCount());
+
+]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 00:19:10</sys_created_on>
+        <sys_id>28ed4bc983fba21002dc99c0deaad39d</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Test_Script</sys_name>
+        <sys_package display_value="Canteen Connect" source="bd39cce883d2221002dc99c0deaad337">bd39cce883d2221002dc99c0deaad337</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Canteen Connect">bd39cce883d2221002dc99c0deaad337</sys_scope>
+        <sys_update_name>sys_script_fix_28ed4bc983fba21002dc99c0deaad39d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 15:15:40</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_es_latest_script action="DELETE">
+        <id>28ed4bc983fba21002dc99c0deaad39d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 00:19:09</sys_created_on>
+        <sys_id>e0fd8b4583fba21002dc99c0deaad35f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 00:19:09</sys_updated_on>
+        <table>sys_script_fix</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Canteen Connect">bd39cce883d2221002dc99c0deaad337</application>
+        <file_path/>
+        <instance_id>ea20b81eeb378e54e483f459bad0cde0</instance_id>
+        <instance_name>dev285691</instance_name>
+        <name>sys_script_fix_28ed4bc983fba21002dc99c0deaad39d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_fix"&gt;&lt;sys_script_fix action="INSERT_OR_UPDATE"&gt;&lt;before&gt;false&lt;/before&gt;&lt;description/&gt;&lt;name&gt;Test_Script&lt;/name&gt;&lt;record_for_rollback&gt;true&lt;/record_for_rollback&gt;&lt;script&gt;&lt;![CDATA[// var gr=new GlideRecord('incident');
+// gr.addQuery('state',7);
+// gr.query();
+// var x=0;
+// while(gr.next()){
+// 	gs.print(gr.state);
+// 	x++;
+// }
+// gs.print("Total no of records:"+x);
+
+// var gr=new GlideRecord('incident');
+// gr.addQuery('state',7);
+// gr.addQuery('category','software');
+// gr.addQuery('priority',1);
+// gr.query();
+// while(gr.next()){
+// 	gr.short_description="Incident is closed, please revisit servicenow portal to raise an issue";
+// 	gr.update();
+// }
+
+var gr = new GlideRecord('incident');
+gr.addQuery('category', 'inquiry');
+gr.addQuery('priority', 1);
+gr.addQuery('state', 3);
+gr.query();
+gs.info("Records found: " + gr.getRowCount());
+while (gr.next()) {
+	var num=gr.getValue('number');
+	var name=gr.caller_id.getDisplayValue();
+    gr.description = num+" "+name;
+    gr.update();
+}
+gs.info("Records found: " + gr.getRowCount());
+
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_fix&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-04 00:19:10&lt;/sys_created_on&gt;&lt;sys_id&gt;28ed4bc983fba21002dc99c0deaad39d&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;Test_Script&lt;/sys_name&gt;&lt;sys_package display_value="Canteen Connect" source="bd39cce883d2221002dc99c0deaad337"&gt;bd39cce883d2221002dc99c0deaad337&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Canteen Connect"&gt;bd39cce883d2221002dc99c0deaad337&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_fix_28ed4bc983fba21002dc99c0deaad39d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-08 15:15:40&lt;/sys_updated_on&gt;&lt;unloadable&gt;false&lt;/unloadable&gt;&lt;/sys_script_fix&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;28ed4bc983fba21002dc99c0deaad39d&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-04 00:19:09&lt;/sys_created_on&gt;&lt;sys_id&gt;e0fd8b4583fba21002dc99c0deaad35f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-04 00:19:09&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_fix&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1314166596</payload_hash>
+        <record_name>Test_Script</record_name>
+        <reverted_from/>
+        <source>f34e42bf78a022104f3459503ff42ae0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 15:15:40</sys_created_on>
+        <sys_id>8881032283b3ea1002dc99c0deaad395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19929e5a9380000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 15:15:40</sys_updated_on>
+        <type>Fix Script</type>
+        <update_guid>4081032274b3ea10746c8ec9b5ec7e95</update_guid>
+        <update_guid_history>4081032274b3ea10746c8ec9b5ec7e95:-1314166596,376003aee873ea10616b9d248dd113f6:-68337719,ebff726e8a73ea10564574c5cd035fac:37678381,c37ff26e1973ea10cc848b4cee2d61e6:1908864024,4efeb6eade73ea10a3d8cf8a82511143:-694786150,6c2ef2aa4973ea109b00b2e9b9050fa7:-578211307,56ccf2aaef73ea100c7a74db5fa7d780:-2029784627,45cafe26c173ea109a24769b2a96c935:-838373314,e8a7fa266473ea10f75eaa7cf85c97e3:-1985003236,14863a2e3433ea10f0ca9fcaf96e318f:1548221666,24b5b2a23373ea10e093059ca923bbde:1200804769,c1c47262f473ea109c618bb56ef3d85b:-2001000081,bbbe4b8553fba210b6fcc08e83d22222:1007658911,9cae4b0d59fba210edf60689c5326d7e:-1981902380,127e0fc95bfba21019c10ab98a36a78a:756367294,606e070d0bfba2108708eb47fad4e859:-1187243034,e8fd4bc902fba210f1cfd94b8a89d33c:-1743051260</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 15:02:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_fix">sys_script_fix</sys_db_object>
+        <sys_id>13cfadd47a67493c90d53a1218c49890</sys_id>
+        <sys_metadata>28ed4bc983fba21002dc99c0deaad39d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test_Script</sys_name>
+        <sys_package display_value="Canteen Connect" source="bd39cce883d2221002dc99c0deaad337">bd39cce883d2221002dc99c0deaad337</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Canteen Connect">bd39cce883d2221002dc99c0deaad337</sys_scope>
+        <sys_scope_delete display_value="">1550abd3c9ea4f309d85167747973100</sys_scope_delete>
+        <sys_update_name>sys_script_fix_28ed4bc983fba21002dc99c0deaad39d</sys_update_name>
+        <sys_update_version display_value="sys_script_fix_28ed4bc983fba21002dc99c0deaad39d">8881032283b3ea1002dc99c0deaad395</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 15:02:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
